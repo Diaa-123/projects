@@ -16,7 +16,7 @@ function send()
 {
      number_1=document.getElementById("number_1").value;
      number_2=document.getElementById("number_2").value;
-     actual_answer = parseInt(number1) * parseInt(number2);
+     actual_answer = parseInt(number_1) * parseInt(number_2);
      console.log(actual_answer);
 
      question_number = "<h4>" + number1 + " X "+ number2 +"</h4>";
